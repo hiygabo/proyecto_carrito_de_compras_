@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="cuerpo">
+        <div class="cabecera">
+            <ul>
+                <li></li>
+                <li>MybeautyCorea</li>
+                <div class="li2">
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Rutinas</li>
+                        <li>Maquillaje</li>
+                        <li>Los más vendidos</li>
+                        <li>
+                            <button id="carrito">Ver carrito</button>
+                            <div id="menu" class="menu">
+                                <h3>Carrito de Compras</h3>
+                                <ul id="cart-items">
+                                    <li>No hay productos en el carrito</li>
+                                </ul>
+                                <p id="total-price">Total: $0.00</p>
+                                <button id="vaciar-carrito">Vaciar Carrito</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+	<div class="buscador">
+        <h3>Lo mejor de la cosmética coreana <br> en un solo lugar.</h3>
+        <form>
+            <input type="text" name="buscador" placeholder="¿Qué quieres buscar?">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+        <div class="productos">
+            <div class="card1">
+                <img src="images/SF_Fotos-Web-1-1.png" alt="RICE DAILY BRIGHTENING SCRUB FOAM">
+                <h2>RICE DAILY BRIGHTENING SCRUB FOAM</h2>
+                <p>35$</p>
+                <button class="add-to-cart" data-id="1" data-name="RICE DAILY BRIGHTENING SCRUB FOAM" data-price="35">Añadir al carrito</button>
+            </div>
+            <div class="card2">
+                <img src="images/Captura de pantalla 2024-11-10 014826.png" alt="PEACH SAKER TONER">
+                <h2>PEACH SAKER TONER</h2>
+                <p>25$</p>
+                <button class="add-to-cart" data-id="2" data-name="PEACH SAKER TONER" data-price="25">Añadir al carrito</button>
+            </div>
+            <div class="card3">
+                <img src="images/519r5dlFGRL.jpg" alt="BLACK SUGAR PERFECT BUBBLE FOAM">
+                <h2>BLACK SUGAR PERFECT BUBBLE FOAM</h2>
+                <p>45$</p>
+                <button class="add-to-cart" data-id="3" data-name="BLACK SUGAR PERFECT BUBBLE FOAM" data-price="45">Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
